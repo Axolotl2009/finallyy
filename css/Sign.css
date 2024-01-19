@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71); /* Use your desired gradient colors */
+}
+
+.container {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Set the text color to white for better visibility */
+    text-align: center;
+    padding: 20px;
+    margin: 100px auto;
+    width: 300px;
+}
+
+h1 {
+    color: #fff; /* Set the heading color to white for better visibility */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #fff; /* Set the label color to white for better visibility */
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #fff; /* Set the border color to white for better visibility */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

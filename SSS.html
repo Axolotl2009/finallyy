@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/SS.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Log in</h1>
+        <form id="signInForm" onsubmit="saveUsername(event)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <a href="test.html" id="cartLink">Log in</a>
+        </form>
+        <p id="error-message"></p>
+        <p>Don't have an account? <a href="Sign.html">Sign up</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

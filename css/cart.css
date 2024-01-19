@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+#cartSection {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#cartLink {
+    text-decoration: none;
+    color: white;
+}
+
+#cartItemsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Add hover effect to the cart items */
+li:hover {
+    background-color: #f0f0f0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+#cartSection {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#cartLink {
+    text-decoration: none;
+    color: white;
+}
+
+#cartItemsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.product p {
+    color: #666;
+}
+
+.product button {
+    background-color: #00ff6a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product button:hover {
+    background-color: #eb0c0c;
+}
